@@ -1,0 +1,20 @@
+@media screen and (max-width:480px){
+    #UneAutreDivDeTailleMoyenne{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    #titre_1{
+        font-size: 40px;
+        position: absolute;
+        left: 25%;
+        top: 35%;
+    }
+    #bars{
+        display: flex;
+        justify-content: center;
+    }
+    .disp{
+        display: none;
+    }
+}

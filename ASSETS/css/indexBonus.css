@@ -1,0 +1,92 @@
+/*image et texte haut du site*/
+header{
+    background-image: url(../Images/Chameau.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+}
+#titre_1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60pt;
+    position: absolute;
+    left: 32%;
+    top: 15%;
+}
+/* Barre de navigation*/
+#barre{
+    display: flex;
+    background-color: #AFE3F9;
+    border-radius: 20px;
+    border: solid black 2px;
+}
+#barre>*{
+    font-size: 20pt;
+    flex: auto;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    padding: 10px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(246, 6, 54);
+}
+#Rechercher{
+  font-size:  12pt;
+  text-align: center;
+}
+#bars{
+    display: none;
+}
+
+/*Texte de présentation en latin*/
+#para1{
+    font-size: 15pt;
+    background-color: rgb(245, 183, 128);
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+    border: solid black 2px;
+}
+/* 3 destinations */
+#t1 , #t2 , #t3{
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+}
+#UneAutreDivDeTailleMoyenne , #DivDeTailleMoyenne{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Image1 , #Image2 , #Image3{
+    background-size: cover;
+    height: 400px;
+    border-radius: 20px;
+} 
+#Image1{
+    background-image: url(../Images/singapour.jpg);
+}
+#Image2{
+    background-image: url(../Images/chili.jpg);
+}
+#Image3{
+    background-image: url(../Images/Laciotat.jpg);
+}
+
+#UneAutreDivDeTailleMoyenne{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+.blocTotal{
+    visibility: hidden;
+}
+.blocTotal.blocAppear{
+    visibility: visible;
+    animation-duration: 2s;
+}
